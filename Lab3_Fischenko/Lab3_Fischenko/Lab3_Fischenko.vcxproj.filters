@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Исходные файлы">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Файлы заголовков">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Файлы ресурсов">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Исходные файлы\Task_1">
+      <UniqueIdentifier>{ab62655d-c7fe-4431-bf43-5d8d4f5ab1e1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Task_2">
+      <UniqueIdentifier>{e54efaf5-6a84-4a0a-b268-1faeac95fcdd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\Task_2">
+      <UniqueIdentifier>{d165a8f7-6de0-45bb-85a3-01022375b625}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\Task_1">
+      <UniqueIdentifier>{acf105ad-f8ae-4475-b569-2f87a59bba90}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="CustomExpressionEvaluator.cpp">
+      <Filter>Исходные файлы\Task_1</Filter>
+    </ClCompile>
+    <ClCompile Include="ExpressionEvaluator.cpp">
+      <Filter>Исходные файлы\Task_1</Filter>
+    </ClCompile>
+    <ClCompile Include="Multiplier.cpp">
+      <Filter>Исходные файлы\Task_1</Filter>
+    </ClCompile>
+    <ClCompile Include="Subtractor.cpp">
+      <Filter>Исходные файлы\Task_1</Filter>
+    </ClCompile>
+    <ClCompile Include="Designer.cpp">
+      <Filter>Исходные файлы\Task_2</Filter>
+    </ClCompile>
+    <ClCompile Include="Employee.cpp">
+      <Filter>Исходные файлы\Task_2</Filter>
+    </ClCompile>
+    <ClCompile Include="Photographer.cpp">
+      <Filter>Исходные файлы\Task_2</Filter>
+    </ClCompile>
+    <ClCompile Include="Lab3_Fischenko.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CustomExpressionEvaluator.h">
+      <Filter>Файлы заголовков\Task_1</Filter>
+    </ClInclude>
+    <ClInclude Include="ExpressionEvaluator.h">
+      <Filter>Файлы заголовков\Task_1</Filter>
+    </ClInclude>
+    <ClInclude Include="ILoggable.h">
+      <Filter>Файлы заголовков\Task_1</Filter>
+    </ClInclude>
+    <ClInclude Include="IShuffle.h">
+      <Filter>Файлы заголовков\Task_1</Filter>
+    </ClInclude>
+    <ClInclude Include="Multiplier.h">
+      <Filter>Файлы заголовков\Task_1</Filter>
+    </ClInclude>
+    <ClInclude Include="Subtractor.h">
+      <Filter>Файлы заголовков\Task_1</Filter>
+    </ClInclude>
+    <ClInclude Include="Designer.h">
+      <Filter>Файлы заголовков\Task_2</Filter>
+    </ClInclude>
+    <ClInclude Include="Employee.h">
+      <Filter>Файлы заголовков\Task_2</Filter>
+    </ClInclude>
+    <ClInclude Include="IPictureProcessor.h">
+      <Filter>Файлы заголовков\Task_2</Filter>
+    </ClInclude>
+    <ClInclude Include="Photographer.h">
+      <Filter>Файлы заголовков\Task_2</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
